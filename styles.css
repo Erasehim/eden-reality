@@ -1,11 +1,11 @@
 /* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Helvetica Neue', sans-serif; line-height: 1.6; color: #333; background-color: #fdfdf5; }
-.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.container {max-width: 1200px; margin: 0 auto; padding: 20px; display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
 
 /* Header */
 .site-header { background: #ffffff; padding: 20px 0; border-bottom: 2px solid #cfe8d5; position: sticky; top: 0; z-index: 1000; }
-.logo h1 { margin: 0; color: #2c6f4e; font-size: 2rem; }
+.logo h1 { margin: 0; color: #2c6f4e; font-size: 2rem;}
 .main-nav ul { list-style: none; display: flex; gap: 20px; padding: 0; }
 .main-nav a { text-decoration: none; color: #2c6f4e; font-weight: 600; transition: color 0.3s; }
 .main-nav a:hover { color: #4aa174; }
